@@ -1,5 +1,4 @@
-<img width="1842" height="778" alt="Screenshot 2026-05-22 145855" src="https://github.com/user-attachments/assets/f594d084-32c1-4a61-985c-57f7815e6c9e" />
-<img width="1839" height="807" alt="Screenshot 2026-05-22 145819" src="https://github.com/user-attachments/assets/86695154-d155-435e-ae33-0c5d485f98bf" />
+
 # PokéExplorer
 
 A modern Pokémon discovery app built with React and the PokéAPI. Search, explore stats, and find your daily Pokémon — all in a clean, responsive interface.
@@ -56,7 +55,8 @@ src/
 
 ## Screenshots
 
-_Add screenshots here after running the app_
+<img width="1842" height="778" alt="Screenshot 2026-05-22 145855" src="https://github.com/user-attachments/assets/f594d084-32c1-4a61-985c-57f7815e6c9e" />
+<img width="1839" height="807" alt="Screenshot 2026-05-22 145819" src="https://github.com/user-attachments/assets/86695154-d155-435e-ae33-0c5d485f98bf" />
 
 ## API
 
