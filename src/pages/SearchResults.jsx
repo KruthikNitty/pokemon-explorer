@@ -18,7 +18,7 @@ function SearchResults() {
   const [fetching, setFetching] = useState(false)
   const [error, setError] = useState(null)
 
-  // Keep a cache so we don't re-fetch on tab revisit
+
   const cache = useRef({})
 
   useEffect(() => {

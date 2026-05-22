@@ -13,7 +13,7 @@ function getDailyPokemonId() {
     if (date === today) return id
   }
 
-  // New day — pick a new random one (1–898 for main series)
+  
   const newId = Math.floor(Math.random() * 898) + 1
   localStorage.setItem('daily_pokemon', JSON.stringify({ date: today, id: newId }))
   return newId
@@ -35,7 +35,7 @@ function Home() {
   }, [])
 
   useEffect(() => {
-    // Fetch a handful of popular pokemon to showcase
+   
     const popularIds = [6, 25, 39, 52, 94, 130, 143, 149, 248, 384]
     Promise.all(popularIds.map((id) => getPokemon(id)))
       .then(setPopularPokemon)
