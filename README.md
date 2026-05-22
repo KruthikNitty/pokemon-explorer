@@ -1,4 +1,4 @@
-# PokeExplorer
+# PokéExplorer
 
 A Pokemon explorer app I built using React and the free PokeAPI. You can search for any Pokemon, view their stats and abilities, and there's a daily Pokemon that changes every day.
 

@@ -110,14 +110,14 @@ function PokemonDetails() {
         className="relative rounded-3xl overflow-hidden border border-white/8 mb-6 p-6 md:p-8"
         style={{
           background: `linear-gradient(135deg, ${typeColor}20, ${typeColor}06, #1a1a2e)`,
-          boxShadow: `0 0 80px ${typeColor}15`,
+          boxShadow: `0 0 35px ${typeColor}12`,
         }}
       >
         <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center md:items-start">
           {/* Image */}
           <div className="relative flex-shrink-0">
             <div
-              className="absolute inset-0 rounded-full blur-3xl opacity-20"
+              className="absolute inset-0 rounded-full blur-2xl opacity-15"
               style={{ background: typeColor }}
             />
             <img
@@ -177,7 +177,7 @@ function PokemonDetails() {
                   : 'bg-white/5 border-white/10 text-gray-400 hover:text-white hover:border-white/20'
               }`}
             >
-              {isFav ? '♥' : '♡'} {isFav ? 'Saved' : 'Save to Favourites'}
+              {isFav ? '♥' : '♡'} {isFav ? 'Added' : 'Add to Favourites'}
             </button>
           </div>
         </div>

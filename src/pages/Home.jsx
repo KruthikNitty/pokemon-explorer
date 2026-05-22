@@ -57,20 +57,20 @@ function Home() {
         <div className="absolute inset-0 bg-gradient-to-br from-red-950/30 via-[#0f0f0f] to-[#0f0f0f]" />
         {/* Decorative circles */}
         <div className="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-red-900/10 blur-3xl" />
-        <div className="absolute -bottom-20 -left-20 w-72 h-72 rounded-full bg-red-900/10 blur-3xl" />
+       
 
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-16 md:py-24">
           <div className="max-w-2xl">
             <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-3 py-1 text-xs text-gray-400 mb-5">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-              1,302 Pokémon available
+            Explore hundreds of Pokémon
             </div>
             <h1 className="font-display text-5xl md:text-6xl font-bold leading-tight mb-4">
               Explore the<br />
               <span className="text-red-500">Pokémon</span> world
             </h1>
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-              Search, discover, and dive deep into stats, abilities, and everything about your favourite Pokémon.
+              Search and explore your favourite Pokémon with detailed stats, abilities, and moves.
             </p>
             <SearchBar onSearch={handleSearch} />
             <p className="text-xs text-gray-600 mt-3">
@@ -130,7 +130,7 @@ function DailyCard({ pokemon, typeColor }) {
       className="relative rounded-3xl overflow-hidden border border-white/8 p-6 md:p-8"
       style={{
         background: `linear-gradient(135deg, ${typeColor}25, ${typeColor}08, #1a1a2e)`,
-        boxShadow: `0 0 60px ${typeColor}20`,
+        boxShadow: `0 0 25px ${typeColor}15`,
       }}
     >
       {/* Background pattern */}
@@ -146,7 +146,7 @@ function DailyCard({ pokemon, typeColor }) {
         {/* Image */}
         <div className="relative flex-shrink-0">
           <div
-            className="absolute inset-0 rounded-full blur-3xl opacity-30"
+            className="absolute inset-0 rounded-full blur-2xl opacity-20"
             style={{ background: typeColor }}
           />
           <img
