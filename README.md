@@ -1,10 +1,10 @@
 # PokéExplorer
 
-A Pokemon explorer app I built using React and the free PokeAPI. You can search for any Pokemon, view their stats and abilities, and there's a daily Pokemon that changes every day.
+A Pokémon explorer app built with React and PokeAPI where users can search and explore different Pokémon. You can search for any Pokemon, view their stats and abilities, and there's a daily Pokemon that changes every day.
 
 ## Features
 
-- **Homepage** — Hero section with search + Daily Pokemon card (changes per day, persists across refreshes via localStorage)
+- **Homepage** — Hero section with search + Daily Pokemon card (changes daily and stays the same even after refresh)
 - **Search Results** — Filtered grid with lazy batch loading, skeleton loaders, and empty states
 - **Pokemon Details** — Artwork, stats with animated bars, abilities, level-up moves, flavour text
 - **Favourites** — Save Pokemon to localStorage with a single click
@@ -12,7 +12,7 @@ A Pokemon explorer app I built using React and the free PokeAPI. You can search 
 
 ## Tech Stack
 
-- React 18 + Vite
+- React + Vite
 - Tailwind CSS
 - React Router DOM v6
 - PokeAPI (https://pokeapi.co/)
@@ -59,4 +59,4 @@ src/
 
 ## API
 
-All data sourced from [PokéAPI](https://pokeapi.co/) — a free, open RESTful Pokémon data API. No API key required.
+All data sourced from [PokéAPI](https://pokeapi.co/) — a free Pokémon data API. No API key required.
